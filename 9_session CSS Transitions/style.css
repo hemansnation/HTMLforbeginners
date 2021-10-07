@@ -1,0 +1,89 @@
+.tool{
+	display: inline-block;
+	border-bottom: 2px dotted black;
+}
+
+
+.tooltip{
+	visibility: hidden;
+	width: 120px;
+	background-color: black;
+	color: white;
+	text-align: center;
+	border-radius: 5px;
+	padding: 5px 0;
+}
+
+.tool:hover .tooltip{
+	visibility: visible;
+}
+
+
+
+.a, .b{
+	background-color: cyan;
+	color: white;
+}
+
+
+.button{
+	background-color: green;
+	border:none;
+	color: white;
+	font-size: 20px;
+	padding: 20px;
+	cursor: pointer;
+}
+
+.button1:hover{
+	border-radius: 14px;
+	background-color: red;
+}
+
+
+
+
+
+
+
+/*.div1{
+	width: 100px;
+	height: 100px;
+	background:red;
+	transition: width 2s, height 2s;
+}*/
+/*
+div:hover{
+	width:300px;
+	height: 300px;
+	transform: rotate(180deg);
+}
+
+
+div{
+	float: right;
+	width: 100px;
+	height: 100px;
+	background:red;
+	transition: width 2s, height 2s, transform 2s;
+}
+*/
+
+
+
+/*
+div{
+	width: 100px;
+	height: 100px;
+	background:red;
+	transition: width 3s;
+	transition-delay: 2s;
+}
+*/
+
+/*
+#div2{transition-timing-function: linear;}
+#div3{transition-timing-function: ease;}
+#div4{transition-timing-function: ease-in;}
+#div5{transition-timing-function: ease-out;}
+#div6{transition-timing-function: ease-in-out;}*/

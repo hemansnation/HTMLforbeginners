@@ -1,0 +1,30 @@
+body{
+	background-image: url('ann.png') ;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: center;
+
+}
+
+#co{
+	color: black;
+	border: 2px solid black;
+	border-radius: 5px;
+}
+
+#cod{
+
+	border: 3px dashed rgb(255, 99, 170);
+}
+
+#color1{
+
+	border: 3px dashed #ff6377;
+}
+
+#color2{
+
+	border: 3px dashed rgba(125,44,33,1);
+}
+
+

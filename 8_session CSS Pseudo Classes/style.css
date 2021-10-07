@@ -1,0 +1,60 @@
+.link1:hover{
+	color: red;
+}
+
+.division1{
+	background-color: #ddd;
+	color: black;
+	padding: 25px;
+	text-align: center;
+	font-size: 30px;
+}
+h2{
+	display: none;
+}
+
+.division1:hover h2{
+	display: block;
+	background-color: blue;
+	color: white;
+
+}
+
+.division1:hover{
+	display: none;
+
+}
+
+h1{
+	display: none;
+	background-color: cyan;
+	padding: 20px;
+}
+
+.division2:hover h1{
+	display: block;
+}
+
+/*pseudo elements
+*/
+p::first-line{
+	color: red;
+	font-style: italic;
+}
+
+p::first-letter{
+	color: red;
+	font-size: 30px;
+}
+
+p.four::first-letter{
+	color: yellow;
+	font-size: 200%
+}
+
+img{
+	opacity: 0.5;
+}
+img:hover{
+	opacity: 1;
+}

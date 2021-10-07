@@ -1,0 +1,17 @@
+body{
+	background-color: #FF0000;
+}
+
+h1{
+	color: red;
+	display: block;
+}
+
+#main{
+	color: blue;
+}
+
+.anurag{
+	font-size: 50px;
+	font-weight: bold;
+}

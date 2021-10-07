@@ -1,0 +1,14 @@
+div{
+	border: 2px solid green;
+	padding: 100px;
+
+}
+
+.division{
+	border: 2px solid red;
+	margin: 30px 50px 70px 30px;
+}
+
+.division1{
+	border: 2px solid red;
+}

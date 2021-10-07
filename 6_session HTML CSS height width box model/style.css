@@ -1,0 +1,71 @@
+.division1{
+	height: 200px;
+	width: 50%;
+	background-color: powderblue;
+	float: left;
+}
+
+.division2{
+	width: 300px;
+	border: 25px solid green;
+	padding: 25px;
+	margin: 300px;
+	outline: 5px solid red;
+	outline-offset: 15px;
+	text-align: justify;
+}
+
+.deco{
+	text-decoration: line-through;
+}
+
+.line{
+	letter-spacing: 1px;
+	line-height: 1.5;
+	word-spacing: 10px;
+}
+
+.line1{
+	direction: rtl;
+}
+
+.font{
+	color: red;
+	font-family: Arial, sans-serif;
+	font-size: 50px;
+}
+
+.view{
+	font-size: 10vw;
+}
+
+a{
+	color: black;
+	background-color: yellow;
+}
+
+/* unvisited link  */
+a:link{
+	color: red;
+}
+
+a:visited{
+	color: green;
+}
+
+a:hover{
+	color: pink;
+}
+
+a:active{
+	color: blue;
+}
+
+
+a:link, a:visited{
+	
+}
+
+h1, p, body{
+	
+}
